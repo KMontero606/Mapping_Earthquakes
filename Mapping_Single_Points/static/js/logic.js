@@ -27,5 +27,5 @@ attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap
     accessToken: API_KEY
 });
 
-// Then we add our 'graymap' tile layer to the map.
+// Then we add our 'dark' tile layer to the map with "dark-v10".
 streets.addTo(map);
