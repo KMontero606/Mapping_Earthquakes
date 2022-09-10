@@ -1,5 +1,7 @@
 # Mapping_Earthquakes
 
+<img width="335" alt="image" src="https://user-images.githubusercontent.com/106962921/189462078-4364259b-1c23-450d-952a-dfec4b3dc5e3.png">
+
 ## Overview of Project:
 Basil and Sadhana like how you created your earthquake map with two different maps and the earthquake overlay. Now, Basil and Sadhana would like to see the earthquake data in relation to the tectonic plates’ location on the earth, and they would like to see all the earthquakes with a magnitude greater than 4.5 on the map, and they would like to see the data on a third map.
 
