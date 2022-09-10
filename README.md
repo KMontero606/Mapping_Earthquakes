@@ -1,7 +1,7 @@
 # Mapping_Earthquakes
 
 ## Overview of Project:
-Basil and Sadhana like how you created your earthquake map with two different maps and the earthquake overlay. Now, Basil and Sadhana would like to see the earthquake data in relation to the tectonic plates’ location on the earth, and they would like to see all the earthquakes with a magnitude greater than 4.5 on the map, and they would like to see the data on a third map.
+Basil and Sadhana like how you created your earthquake map with two different maps and the earthquake overlay. Now, Basil and Sadhana would like to see the earthquake data in relation to the tectonic platesâ€™ location on the earth, and they would like to see all the earthquakes with a magnitude greater than 4.5 on the map, and they would like to see the data on a third map.
 
 ## Results:
 ### Deliverable 1: Add Tectonic Plate Data
@@ -58,10 +58,10 @@ let overlays = {
   
     // D2-5. Change the color function to use three colors for the major earthquakes based on the magnitude of the earthquake.
     function getColor(magnitude) {
-      if (magnitude > 6) {
+      if (magnitude > 5) {
         return "#ea2c2c";
       }
-      if (magnitude > 5) {
+      if (magnitude > 4) {
         return "#ea822c";
       }
       return "#98ee00";
@@ -116,13 +116,14 @@ let baseMaps = {
 ```
 
 ## Summary:
-When my webpage is deployed in a local server, the earthquake default map is rendered with the following image:
+When the index.html is deployed, the earthquake default map is rendered with the following image:
 
-
+<img width="1127" alt="image" src="https://user-images.githubusercontent.com/106962921/189461595-a98075d9-ecc4-4fd4-80b4-1b7e0f3e0bb0.png">
 
 Toggling to the Major Earthquake map renders the following map with earthquakes magnitude greater than 4.5:
 
+<img width="1126" alt="image" src="https://user-images.githubusercontent.com/106962921/189461749-7c87b27b-a5dc-4b55-ba58-82b6a6f96419.png">
 
+A third base map is added, â€˜Navigation Nightâ€™, to render the map with an alternative map template:
 
-A third base map is added, ‘Navigation Night’, to render the map with an alternative map template:
-
+<img width="1126" alt="image" src="https://user-images.githubusercontent.com/106962921/189461768-ae46c736-3ccf-414f-b754-df41a66e263f.png">
